@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travelinmh</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/travel1.css">
+    <link rel="stylesheet" href="css/travel2.css">
+    <link rel="stylesheet" href="css/travel3.css">
+
+</head>
+
+<body>
+
+
+   
+
+      <!-- navbar -->
+
+      <nav class="navbar">
+        <div class="brand-title">TravelInMH</div>
+        <button type="button" class="collapsible">☰ </button>
+
+        <div class="navbar-links ">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#visit here">visit </a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- home page  background -->
+
+    <div id="Home" class="imageback">
+        <img src="images/backgr.jpg">
+    </div>
+    <div class="content">
+        <h1>Travel in the word </h1>
+        <p >Life is short and the world is wide,<br>Always say yes to adventure.</p>
+    </div>
+
+    <!-- para -->
+
+    <h3>Maharashtra tourism for holidays along with best places to see and popular
+        tourist attractions in Maharashtra.<br>
+        The best things happen outside of our comfort zones.
+    </h3>
+    <br><br><br>
+
+
+<!-- historical section part -->
+    <h2>HISTORICAL</h2>
+    <br>
+
+    <section id="visit here" class="partmid">
+        <div class="part1">
+            <div class="box">
+                <img src="images/agenta.jpg">
+            </div>
+            <div class="box">
+                <article>
+                    <h1>AJENTA LEKH</h1>
+                    <p> Ajanta caves are located near Ajanta
+                        village, at a distance of 80km from
+                        Aurangabad,in the state of Maharashtra
+                        and take about 2.5hr to go.
+                        These caves were covered with beautiful
+                        paintings with the use of a lot of coloursfrom
+                        the life of boddha. it's hard to believe but
+                        the paintings were done by the monks who had
+                        nothing else to do during the rainy season.</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <br><br><br>
+
+
+    <!-- hill section part -->
+
+    <h2>VISIT HILL STATIONS</h2>
+    <br>
+
+    <section class="partend1">
+        <div class="partend2">
+            <div class="boxend1">
+                <article>
+                    <h1>MAHABALESHWAR</h1>
+                    <p> Mahabaleshwar is one of the popular hill stations in maharashtra,and the best places to
+                        visit near
+                        pune and mumbai. it is about 124km from pune
+                        and 241 from mumbai.<br><br>
+                        Mahabaleshwar famous for strawberries,beautiful temples,waterfalls
+                        must visit this placess sun set point, venna lake,echopoint.</p>
+                </article>
+            </div>
+            <div class="boxend1">
+                <img src="images/mahabaleshour.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="pad" class="partend1">
+        <div class="partend2">
+            <div class="boxend1">
+                <img src="images/lonavla.jpg">
+            </div>
+            <div class="boxend1">
+                <article>
+                    <h1>LONAVLA</h1>
+                    <p> lonavla is a beautifull hill station in pune district of maharashtra.
+                        the best tourist places to visit near pune and mumbai.
+                        it is located about 67km from pune and 95km from mumbai.<br><br>
+                        Must visit places in lonavla tigers leap,rajmachi font,imagicaa,aamby valley,lonavla
+                        lake,karla
+                        caves.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- about us -->
+
+    <div id="About">
+        <div id="lastc">
+            <h1>ABOUT US<h1>
+
+                    <p>Traveling allows you to meet people of different cultures.<br>
+                        with diverse traditions and distinctive lifestyles.<br>
+                        Travelling is one of the best way to learn more about yourself.<br>
+                        Travel takes us out comfort zones and inspire us to see,taste and try new things.<br>
+                        All the challenges and opportunities travel lays at your feet help you<br>
+                        discover who you are in a way that's only possible on the road.
+
+                    </p>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer>
+        <p>copyright@2021 travelinmh</p>
+    </footer>
+
+
+    <!-- script -->
+
+
+    <script>
+         var coll = document.getElementsByClassName(" collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script> 
+
+</body>
+
+</html>
